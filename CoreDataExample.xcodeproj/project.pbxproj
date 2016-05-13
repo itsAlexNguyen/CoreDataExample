@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4635DE4A1CE65570000A1FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE491CE65570000A1FDD /* AppDelegate.swift */; };
-		4635DE4C1CE65570000A1FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE4B1CE65570000A1FDD /* ViewController.swift */; };
+		4635DE4C1CE65570000A1FDD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE4B1CE65570000A1FDD /* MainVC.swift */; };
 		4635DE4F1CE65570000A1FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4635DE4D1CE65570000A1FDD /* Main.storyboard */; };
 		4635DE521CE65570000A1FDD /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE501CE65570000A1FDD /* CoreDataExample.xcdatamodeld */; };
 		4635DE541CE65570000A1FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4635DE531CE65570000A1FDD /* Assets.xcassets */; };
@@ -21,12 +21,14 @@
 		4635DE701CE659E7000A1FDD /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE681CE659E7000A1FDD /* ItemType.swift */; };
 		4635DE711CE659E7000A1FDD /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE691CE659E7000A1FDD /* Image+CoreDataProperties.swift */; };
 		4635DE721CE659E7000A1FDD /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE6A1CE659E7000A1FDD /* Image.swift */; };
+		4635DE751CE6610B000A1FDD /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE741CE6610B000A1FDD /* MaterialView.swift */; };
+		4635DE771CE66381000A1FDD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635DE761CE66381000A1FDD /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4635DE461CE65570000A1FDD /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4635DE491CE65570000A1FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4635DE4B1CE65570000A1FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4635DE4B1CE65570000A1FDD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4635DE4E1CE65570000A1FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4635DE511CE65570000A1FDD /* CoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataExample.xcdatamodel; sourceTree = "<group>"; };
 		4635DE531CE65570000A1FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		4635DE681CE659E7000A1FDD /* ItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
 		4635DE691CE659E7000A1FDD /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4635DE6A1CE659E7000A1FDD /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4635DE741CE6610B000A1FDD /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		4635DE761CE66381000A1FDD /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			children = (
 				4635DE4D1CE65570000A1FDD /* Main.storyboard */,
 				4635DE551CE65570000A1FDD /* LaunchScreen.storyboard */,
+				4635DE741CE6610B000A1FDD /* MaterialView.swift */,
+				4635DE761CE66381000A1FDD /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -105,7 +111,7 @@
 		4635DE601CE6558B000A1FDD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4635DE4B1CE65570000A1FDD /* ViewController.swift */,
+				4635DE4B1CE65570000A1FDD /* MainVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -213,10 +219,12 @@
 				4635DE6F1CE659E7000A1FDD /* ItemType+CoreDataProperties.swift in Sources */,
 				4635DE711CE659E7000A1FDD /* Image+CoreDataProperties.swift in Sources */,
 				4635DE6E1CE659E7000A1FDD /* Store.swift in Sources */,
+				4635DE751CE6610B000A1FDD /* MaterialView.swift in Sources */,
 				4635DE701CE659E7000A1FDD /* ItemType.swift in Sources */,
+				4635DE771CE66381000A1FDD /* ItemCell.swift in Sources */,
 				4635DE6C1CE659E7000A1FDD /* Item.swift in Sources */,
 				4635DE6D1CE659E7000A1FDD /* Store+CoreDataProperties.swift in Sources */,
-				4635DE4C1CE65570000A1FDD /* ViewController.swift in Sources */,
+				4635DE4C1CE65570000A1FDD /* MainVC.swift in Sources */,
 				4635DE4A1CE65570000A1FDD /* AppDelegate.swift in Sources */,
 				4635DE6B1CE659E7000A1FDD /* Item+CoreDataProperties.swift in Sources */,
 				4635DE721CE659E7000A1FDD /* Image.swift in Sources */,
