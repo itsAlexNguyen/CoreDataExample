@@ -56,15 +56,55 @@
 		4635DE481CE65570000A1FDD /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
-				4635DE491CE65570000A1FDD /* AppDelegate.swift */,
-				4635DE4B1CE65570000A1FDD /* ViewController.swift */,
+				4635DE621CE65598000A1FDD /* Supporting Files */,
+				4635DE611CE65590000A1FDD /* Services */,
+				4635DE601CE6558B000A1FDD /* Controller */,
+				4635DE5F1CE65584000A1FDD /* View */,
+				4635DE5E1CE65580000A1FDD /* Model */,
+			);
+			path = CoreDataExample;
+			sourceTree = "<group>";
+		};
+		4635DE5E1CE65580000A1FDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4635DE5F1CE65584000A1FDD /* View */ = {
+			isa = PBXGroup;
+			children = (
 				4635DE4D1CE65570000A1FDD /* Main.storyboard */,
-				4635DE531CE65570000A1FDD /* Assets.xcassets */,
 				4635DE551CE65570000A1FDD /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4635DE601CE6558B000A1FDD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4635DE4B1CE65570000A1FDD /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4635DE611CE65590000A1FDD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4635DE621CE65598000A1FDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4635DE491CE65570000A1FDD /* AppDelegate.swift */,
+				4635DE531CE65570000A1FDD /* Assets.xcassets */,
 				4635DE581CE65570000A1FDD /* Info.plist */,
 				4635DE501CE65570000A1FDD /* CoreDataExample.xcdatamodeld */,
 			);
-			path = CoreDataExample;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
